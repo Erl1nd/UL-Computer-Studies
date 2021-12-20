@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UL - Computer Studies</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav id="myNav" class="navbar navbar-expand-lg fixed-top navbar-dark navbar-default">
+        <div class="container">
+            <a id="brand" class="navbar-brand navbar-default-text" href="#">Computer Studies</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172"
+                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"> <path d="M0,172v-172h172v172z" fill="none"></path> <g class ="change" id="menu" fill="#ffffff"><path d="M14.33333,35.83333v14.33333h143.33333v-14.33333zM14.33333,78.83333v14.33333h143.33333v-14.33333zM14.33333,121.83333v14.33333h143.33333v-14.33333z"> </path> </g></g> </svg>
+                <!-- SVG END -->
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a id="home" class="nav-link navbar-default-text" href="#hero-section">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="teachers" class="nav-link navbar-default-text" href="#teacher-section">Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="events" class="nav-link navbar-default-text" href="#events-section">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="contact" class="nav-link navbar-default-text" href="#contact-section">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div id="hero-section" class="hero">
+        <div class="container row">
+            <div class="col-12 col-lg-6 hero-content">
+                <h1>University of Luzon College of Computer Studies</h1>
+                <p>The University of Luzon is an autonomous university that is a Center of Development in Information
+                    Technology, is Level III PACUCOA Accredited in Computer Science, and is the first in the Philippines
+                    to teach MIT Cybersecurity.In the midst of the pandemic, we're also adjusting to the new normal
+                    system. So, what exactly are you waiting for? Enroll right now!</p>
+                <button type="button" class="btn btn-inquire"><a href="#contact-section"> Inquire Now</a></button>
+            </div>
+            <div class="col-12 col-lg-6 hero-image">
+                <img src="./image/heroImg.svg" alt="" width="600rem" height="600rem">
+            </div>
+        </div>
+    </div>
+
+    <!-- TEACHER SECTION -->
+    <div id="teacher-section" class="teachers">
+        <div class="container row">
+            <div class="col-12 col-lg-6 order-2 order-lg-1 organization-image" style="display: flex; flex-direction: column; align-items: center;"> 
+                <img id="myImg" src="./image/teachers.jpg" alt="" width="392.34px" height="600px" style="margin-bottom: 1rem;">
+                <p style="display: inlineblock; width: 200px; text-align: center; font-weight: 500;">Click Image to View</p>
+            </div>
+            <div class="col-12 col-lg-6 order-1 order-lg-2 what-content">
+                <h1>Computer Studies Faculty</h1>
+                <p>Cultivated by such a creative environment, the College of Computer Studies is taking advantage of the
+                    incalculable amount of intellectual resources – the key to understanding the complexities of
+                    technology and society to meet the challenges of the 21st century. The faculty is made up of the
+                    greatest educators to guide future IT professionals whose interest is to become an expert on design
+                    and its implementation of information systems for business processes. Through the college’s four (4)
+                    academic programs: Bachelor of Science in Computer Science (BSCS), Bachelor of Science in
+                    Information Technology (BSIT), Bachelor of Science in Information Systems (BSIS); and Enhancement
+                    Programs for IT skills enhancements, the students are provided with all concentrations and deeper
+                    understanding of the role of computer in our daily lives.</p>
+                <button type="button" class="btn btn-learn"><a
+                        href="https://ul.edu.ph/colleges/college-of-computer-studies/#" target=”_blank”> Learn
+                        More</a></button>
+            </div>
+        </div>
+        <!-- ORGANIZATIONAL CHART MODAL -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+    </div>
+
+    <!-- EVENTS -->
+    <section id="events-section" class="events">
+        <div class="container row">
+            <div class="col-12 col-lg-4">
+                <div class="card card1">
+                    <img src="./image/event1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Cybersecurity Conference 2020</h5>
+                        <p class="card-text">So proud to be with the ULCCS CTF-Hackthon Team that won special awards in
+                            the recently held Cybersecurity Conference 2020</p>
+                        <a href="https://www.facebook.com/photo/?fbid=4330301280319669&set=a.564949153521586"
+                            target=”_blank” class="btn btn-readmore">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card card2">
+                    <img src="./image/event2.jpg" class="card-img-top" alt="" height="300rem">
+                    <div class="card-body">
+                        <h5 class="card-title">Ethical Hacking and Penetration Testing</h5>
+                        <p class="card-text">Less than a month, countdown for another milestone begins for the 4th UL
+                            Cybersecurity Conference "Ethical Hacking and Penetration Testing"</p>
+                        <a href="https://www.facebook.com/luzonuniversity/photos/pcb.3718138024893127/3718134441560152"
+                            target=”_blank” class="btn btn-readmore">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card card3">
+                    <img src="./image/event3.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">26th World Conference </h5>
+                        <p class="card-text">Congratulations Dean Caronongan for being the Session Chair in the 26th
+                            World Conference on Applied Science, Engineering and Technology. We are so proud of you!
+                        </p>
+                        <a href="https://www.facebook.com/ULComputerStudies/photos/a.118349701671877/1201979999975503/"
+                            target=”_blank” class="btn btn-readmore">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact-section" class="contact">
+        <div class="container row">
+            <div class="image col-12 col-lg-6">
+                <img src="./image/message.svg" alt="" width="600rem" height="600rem">
+            </div>
+            <div class="col-12 col-lg-6">
+                <form>
+                    <div class="form-outline mb-4">
+                        <input type="text" id="form4Example1" class="form-control" placeholder="Name" />
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <input type="email" id="form4Example2" class="form-control" placeholder="Email" />
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <textarea class="form-control" id="form4Example3" rows="4" placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="form-check mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                        <label class="form-check-label" for="form4Example4">
+                            Send me a copy of this message
+                        </label>
+                    </div>
+
+                    <a class="btn btn-send">Send</a>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="container d-flex flex-direction-column justify-content-between">
+                <span class="text-muted">University of Luzon College Of Computer Studies</span>
+                <span class="text-muted">Created by Erlind</span>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+        var myNav = document.getElementById('myNav');
+        var brand = document.getElementById('brand');
+        var home = document.getElementById('home');
+        var teachers = document.getElementById('teachers');
+        var events = document.getElementById('events');
+        var contact = document.getElementById('contact');
+        var menu = document.getElementById('menu');
+        window.onscroll = function () {
+            "use strict";
+            if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200) {
+                myNav.classList.add("navbar-colored");
+                myNav.classList.remove("navbar-default");
+                brand.classList.add("navbar-colored-text");
+                brand.classList.remove("navbar-default-text");
+
+                home.classList.add("navbar-colored-text");
+                home.classList.remove("navbar-default-text");
+
+                teachers.classList.add("navbar-colored-text");
+                teachers.classList.remove("navbar-default-text");
+
+                events.classList.add("navbar-colored-text");
+                events.classList.remove("navbar-default-text");
+
+                contact.classList.add("navbar-colored-text");
+                home.classList.remove("navbar-default-text");
+
+                menu.classList.add("changes");
+                menu.classList.remove("change");
+            } else {
+                myNav.classList.add("navbar-default");
+                myNav.classList.remove("navbar-colored");
+                brand.classList.add("navbar-default-text");
+                brand.classList.remove("navbar-colored-text");
+
+                home.classList.add("navbar-default-text");
+                home.classList.remove("navbar-colored-text");
+
+                teachers.classList.add("navbar-default-text");
+                teachers.classList.remove("navbar-colored-text");
+
+                events.classList.add("navbar-default-text");
+                events.classList.remove("navbar-colored-text");
+
+                contact.classList.add("navbar-default-text");
+                contact.classList.remove("navbar-colored-text");
+
+                menu.classList.add("change");
+                menu.classList.remove("changes");
+                
+            }
+        };
+    </script>
+
+    <script>
+        var modal = document.getElementById("myModal");
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+        var span = document.getElementsByClassName("close")[0];
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
